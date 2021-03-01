@@ -47,7 +47,7 @@ h1 {
 
 /* CAR */
 #car {
-  animation: drive 20s linear infinite;
+  animation: drive 5s linear infinite;
   transform-box: fill-box;
   transform-origin: 50% 50%;
 }

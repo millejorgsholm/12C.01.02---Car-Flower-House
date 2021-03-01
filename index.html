@@ -9,6 +9,7 @@
   </head>
   <body>
     <h1>Click here to make it night</h1>
+    <p>What happens if u click at the house?</p>
     <svg
       width="500"
       height="550"
@@ -51,11 +52,22 @@ window.addEventListener("DOMContentLoaded", start);
 
 function start() {
   document.querySelector("h1").addEventListener("click", nightMode);
+  document.querySelector("#house").addEventListener("click",houseColorChange);
+document.querySelector("#house_window_left").addEventListener("click",houseColorChange);
+document.querySelector("#house_window_right").addEventListener("click",houseColorChange);
 }
 
 function nightMode() {
   console.log("night mode");
   document.querySelector("svg").style.backgroundColor = "navy";
+}
+
+function houseColorChange(){
+  console.log("house color change");
+  document.querySelector("#house_main").style.fill = "pink";
+  document.querySelector("#house_window_left").style.fill = "yellow";
+  document.querySelector("#house_window_right").style.fill = "yellow";
+
 }
     </script>
     
