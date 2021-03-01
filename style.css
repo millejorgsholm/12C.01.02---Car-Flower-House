@@ -1,11 +1,29 @@
 #house_main {
-  stroke: black;
+  stroke: none;
   stroke-width: 2;
-  fill: transparent;
+  fill: rgb(223, 196, 109);
 }
 
 #house_roof {
-  stroke: black;
+  stroke: none;
   stroke-width: 2;
-  fill: transparent;
+  fill: rgb(181, 41, 41);
+}
+
+#house_door {
+  stroke: none;
+  stroke-width: 2;
+  fill: rgb(55, 55, 55);
+}
+
+#house_window_left {
+  stroke: black;
+  stroke-width: 0.8;
+  fill: white;
+}
+
+#house_window_right {
+  stroke: black;
+  stroke-width: 0.8;
+  fill: white;
 }
