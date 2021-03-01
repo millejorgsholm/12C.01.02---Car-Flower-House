@@ -8,6 +8,7 @@
     <title>Car, flower house assignment</title>
   </head>
   <body>
+    <h1>Click here to make it night</h1>
     <svg
       width="500"
       height="550"
@@ -43,6 +44,20 @@
           <circle cx="290" cy="180" r="12" />
       </g>
     </svg>
-    <script></script>
+    <script>
+      "use strict";
+
+window.addEventListener("DOMContentLoaded", start);
+
+function start() {
+  document.querySelector("h1").addEventListener("click", nightMode);
+}
+
+function nightMode() {
+  console.log("night mode");
+  document.querySelector("svg").style.backgroundColor = "navy";
+}
+    </script>
+    
   </body>
 </html>

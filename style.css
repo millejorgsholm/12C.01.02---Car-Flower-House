@@ -1,3 +1,13 @@
+svg {
+  background-color: rgb(130, 179, 213);
+}
+
+h1 {
+  font-family: "Moonflower";
+  font-size: 25px;
+  cursor: pointer;
+}
+
 /* HOUSE */
 
 #house {
