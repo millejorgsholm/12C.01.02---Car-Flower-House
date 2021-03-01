@@ -14,11 +14,34 @@
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect x="110" y="120" width="130" height="120" id="house_main" />
-      <polygon points="175,50 248,120 100,120" id="house_roof" />
-      <rect x="155" y="190" width="35" height="50" id="house_door" />
-      <rect x="120" y="140" width="30" height="30" id="house_window_left" />
-      <rect x="190" y="140" width="30" height="30" id="house_window_right" />
+      <g id="house">
+        <rect x="110" y="120" width="130" height="120" id="house_main" />
+        <polygon points="175,50 248,120 100,120" id="house_roof" />
+        <rect x="155" y="190" width="35" height="50" id="house_door" />
+        <rect x="120" y="140" width="30" height="30" id="house_window_left" />
+        <rect x="190" y="140" width="30" height="30" id="house_window_right" />
+      </g>
+
+      <g id="car">
+        <rect x="310" y="160" width="140" height="50" id="car_body" />
+        <rect x="335" y="140" width="80" height="20" id="car_top" />
+        <circle cx="405" cy="210" r="20" id="wheel1" />
+        <circle cx="340" cy="210" r="20" id="wheel2" />
+        <circle cx="405" cy="210" r="10" id="wheel3" />
+        <circle cx="340" cy="210" r="10" id="wheel4" />
+        <rect x="440" y="170" width="10" height="15" id="car_light" />
+        <rect x="400" y="145" width="15" height="15" id="car_window" />
+      </g>
+
+      <g id="flower">
+        <path d="M 270 180 C 280 300, 310 80, 275 240" />
+        <g id="flower_head">
+          <ellipse cx="280" cy="180" rx="20" ry="10" />
+          <ellipse cx="300" cy="180" rx="20" ry="10" />
+          <ellipse cx="290" cy="170" rx="10" ry="20" />
+          <ellipse cx="290" cy="190" rx="10" ry="20" />
+          <circle cx="290" cy="180" r="12" />
+      </g>
     </svg>
     <script></script>
   </body>
